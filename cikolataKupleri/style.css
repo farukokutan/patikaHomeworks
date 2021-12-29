@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main, header{
+    width: 50%;
+    margin: 0 auto;
+}
+
+header{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    max-width: 960px;
+}
+
+nav a{
+    font-weight: 500;
+    text-decoration: none;
+    color: #823200;
+    padding: 5px;
+}
+
+.header-logo, nav{
+    color: #823200;
+    display: flex;
+    justify-content: left; 
+    align-items: center;
+    word-wrap: break-word;
+}
+
+.header-logo p{
+    padding: 5px;
+}
+
+.resimler img{
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 5px #ececec;
+}
+
+article.card{
+    width: 100%;
+    padding: 10px;   
+    box-shadow: 0 0 5px #ececec;    
+    display: flex;       
+    justify-content: center;  
+    border-bottom: 3px solid #333;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+
+}
+
+.card div{
+    margin-right: 50px;
+}
+
+.card-content h3, .card-content p{
+    text-align: center;
+}
+
+.card-content h3{
+    color: tomato;
+}
+
+.card-content p{
+    font-weight: 400;
+}
+
+
+.food-content {
+    margin: 10px 0;
+}
+
+.food-content h3{
+    padding: 5px;
+    display: inline-block;
+    background-color: #ececec63;
+    border-radius: 5px;
+    border-bottom: 1px solid #333;
+}
+
+.food-list li, article>p{
+    line-height: 1.7;
+}
